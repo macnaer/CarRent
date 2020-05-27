@@ -57,10 +57,6 @@
             </p>
           </div>
           <div class="col-lg-9">
-
-
-
-
             <div class="nonloop-block-13 owl-carousel">
               <div class="item-1">
                 <a href="#"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
