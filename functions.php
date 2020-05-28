@@ -30,3 +30,18 @@ function cr_enqueue()
     wp_enqueue_script("aos", $url . "/assets/js/aos.js", [], $ver);
     wp_enqueue_script("main", $url . "/assets/js/main.js", [], $ver);
 }
+
+add_theme_support('menus');
+add_action( 'after_setup_theme', 'theme_register_nav_menu' );
+function theme_register_nav_menu() {
+	register_nav_menu( 'primary', 'Primary Menu' );
+}
+
+add_filter('nav_menu_css_class' , 'special_nav_class' , 10 , 2);
+
+function special_nav_class ($classes, $item) {
+  if (in_array('current-menu-item', $classes) ){
+    $classes[] = 'active ';
+  }
+  return $classes;
+}

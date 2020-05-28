@@ -1,48 +1,4 @@
 <?php  get_header(); ?>
-<div class="site-section pt-0 pb-0 bg-light">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            
-              <form class="trip-form">
-                <div class="row align-items-center mb-4">
-                  <div class="col-md-6">
-                    <h3 class="m-0">Begin your trip here</h3>
-                  </div>
-                  <div class="col-md-6 text-md-right">
-                    <span class="text-primary">32</span> <span>cars available</span></span>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="form-group col-md-3">
-                    <label for="cf-1">Where you from</label>
-                    <input type="text" id="cf-1" placeholder="Your pickup address" class="form-control">
-                  </div>
-                  <div class="form-group col-md-3">
-                    <label for="cf-2">Where you go</label>
-                    <input type="text" id="cf-2" placeholder="Your drop-off address" class="form-control">
-                  </div>
-                  <div class="form-group col-md-3">
-                    <label for="cf-3">Journey date</label>
-                    <input type="text" id="cf-3" placeholder="Your pickup address" class="form-control datepicker px-3">
-                  </div>
-                  <div class="form-group col-md-3">
-                    <label for="cf-4">Return date</label>
-                    <input type="text" id="cf-4" placeholder="Your pickup address" class="form-control datepicker px-3">
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-lg-6">
-                    <input type="submit" value="Submit" class="btn btn-primary">
-                  </div>
-                </div>
-              </form>
-            </div>
-        </div>
-      </div>
-    </div>
-
-    
 
     <div class="site-section bg-light">
       <div class="container">
@@ -59,7 +15,7 @@
           <div class="col-lg-9">
             <div class="nonloop-block-13 owl-carousel">
               <div class="item-1">
-                <a href="#"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
+                <a href="#"><img src="<?php echo get_bloginfo('template_url') ?>/assets/images/img_1.jpg" alt="Image" class="img-fluid"></a>
                 <div class="item-1-contents">
                   <div class="text-center">
                   <h3><a href="#">Range Rover S64 Coupe</a></h3>
@@ -98,7 +54,7 @@
 
 
               <div class="item-1">
-                <a href="#"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
+                <a href="#"><img src="<?php echo get_bloginfo('template_url') ?>/assets/images/img_2.jpg" alt="Image" class="img-fluid"></a>
                 <div class="item-1-contents">
                   <div class="text-center">
                   <h3><a href="#">Range Rover S64 Coupe</a></h3>
@@ -142,7 +98,7 @@
       </div>
     </div>
 
-    <div class="site-section section-3" style="background-image: url('images/hero_2.jpg');">
+    <div class="site-section section-3" style="background-image: url('<?php echo get_bloginfo('template_url') ?>/assets/images/hero_2.jpg');">
       <div class="container">
         <div class="row">
           <div class="col-12 text-center mb-5">
@@ -236,7 +192,7 @@
                 <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, deserunt eveniet veniam. Ipsam, nam, voluptatum"</p>
               </blockquote>
               <div class="d-flex v-card align-items-center">
-                <img src="images/person_1.jpg" alt="Image" class="img-fluid mr-3">
+                <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/person_1.jpg" alt="Image" class="img-fluid mr-3">
                 <span>Mike Fisher</span>
               </div>
             </div>
@@ -247,7 +203,7 @@
                 <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, deserunt eveniet veniam. Ipsam, nam, voluptatum"</p>
               </blockquote>
               <div class="d-flex v-card align-items-center">
-                <img src="images/person_2.jpg" alt="Image" class="img-fluid mr-3">
+                <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/person_2.jpg" alt="Image" class="img-fluid mr-3">
                 <span>Jean Stanley</span>
               </div>
             </div>
@@ -258,7 +214,7 @@
                 <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, deserunt eveniet veniam. Ipsam, nam, voluptatum"</p>
               </blockquote>
               <div class="d-flex v-card align-items-center">
-                <img src="images/person_3.jpg" alt="Image" class="img-fluid mr-3">
+                <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/person_3.jpg" alt="Image" class="img-fluid mr-3">
                 <span>Katie Rose</span>
               </div>
             </div>
@@ -281,7 +237,7 @@
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="post-entry-1 h-100">
               <a href="single.html">
-                <img src="images/post_1.jpg" alt="Image"
+                <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/post_1.jpg" alt="Image"
                  class="img-fluid">
               </a>
               <div class="post-entry-1-contents">
@@ -295,7 +251,7 @@
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="post-entry-1 h-100">
               <a href="single.html">
-                <img src="images/img_2.jpg" alt="Image"
+                <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/img_2.jpg" alt="Image"
                  class="img-fluid">
               </a>
               <div class="post-entry-1-contents">
@@ -310,7 +266,7 @@
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="post-entry-1 h-100">
               <a href="single.html">
-                <img src="images/img_3.jpg" alt="Image"
+                <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/img_3.jpg" alt="Image"
                  class="img-fluid">
               </a>
               <div class="post-entry-1-contents">
