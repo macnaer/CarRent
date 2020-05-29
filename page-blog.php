@@ -4,22 +4,6 @@
 */
 ?>
 <?php get_header('internal'); ?>
-
-<?php 
-     /* if (have_posts()){
-        while(have_posts()){
-          the_post();
-          the_title();
-          the_author();
-          the_category();
-          the_excerpt();
-      ?>
-      <a href="<?php the_permalink(); ?>">Read More</a> 
-      <?php
-        }
-      }*/
-    ?>
-
 <div class="site-section bg-light">
       <div class="container">
         <div class="row">
@@ -47,6 +31,7 @@
                     <h2><a href="<?php the_permalink(); ?>"> <?php the_title(); ?>  </a></h2>
                     <span class="meta d-inline-block mb-3"><?php echo get_the_date()?> <span class="mx-2">by</span> <a href="#"><?php the_author(); ?></a></span>
                     <p><?php the_excerpt() ?></p>
+                    <a href="<?php the_permalink(); ?>" class="btn btn-success">Read More</a>
                 </div>
                 </div>
             </div>
